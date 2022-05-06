@@ -1,16 +1,29 @@
-.card-container {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 25px;
-    cursor: pointer;
-    backface-visibility: hidden;
-    transform: translateZ(0);
-    transition: transform 0.25s ease-out;
+.container{
+    border-bottom: 1px solid black;
+    padding-top: 50px;
+    padding-left: 30px;
+    height: 250px;
 }
 
-.card-container:hover{
-    transform: scale(1.05);
+.container img{
+ box-sizing: border-box;
+ height: 150px;
+ width: 150px;
+ border-radius: 50%;
+ border: 1px solid black;
+ margin-right: 80%;
+}
+
+.container h1{
+   margin-left: 15%;
+   position: relative;
+   bottom: 35vh;
+   text-transform: uppercase;
+}
+
+.container p{
+    margin-left: 18%;
+    position: relative;
+    bottom: 41vh;
+    font-size: 20px;
 }

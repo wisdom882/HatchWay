@@ -25,11 +25,13 @@ function App() {
   return(
     
     <div className="App">
-         <h1>Face Cards</h1>
+      <div className='search'>
+
         <SearchBox 
-        placeholder="search persons"
+        placeholder="Search by name"
         handleChange = {e=>{setSearchField(e.target.value)}}
         />
+      </div>
       
       <CardList persons={persons} />
       {/* <div>
