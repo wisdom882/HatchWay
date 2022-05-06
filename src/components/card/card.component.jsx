@@ -2,10 +2,15 @@ import React from 'react';
 
 import './card.styles.css';
 
+
+
 export const Card = props => (
     <div className="card-container">
-        <img src={`https://robohash.org/${props.person.id}?set=set2&size=180x180`} alt="monsters"/>
-        <h2>{props.person.name}</h2>
+        <img src={props.person.pic} alt="Student pictures"/>
+        <h2>{props.person.firstName} {props.person.lastName}</h2>
         <p>{props.person.email}</p>
+        <p>{props.person.company}</p>
+        <p>{props.person.skill}</p>
+        <p>Average: {props.person.grades.map(function(x,i,arr){return x/arr.length}).reduce(function(a,b){return a + b})}%</p>
     </div>
 )
