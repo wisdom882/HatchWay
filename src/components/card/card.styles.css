@@ -2,7 +2,7 @@
     border-bottom: 1px solid black;
     padding-top: 50px;
     padding-left: 30px;
-    height: 250px;
+    height: 650px;
 }
 
 .container img{
@@ -15,15 +15,26 @@
 }
 
 .container h1{
-   margin-left: 15%;
+   margin-left: 20%;
    position: relative;
    bottom: 35vh;
    text-transform: uppercase;
 }
 
 .container p{
-    margin-left: 18%;
+    margin-left: 20%;
     position: relative;
     bottom: 41vh;
     font-size: 20px;
+}
+
+.grades{
+    padding-top: 20px;
+}
+
+.plus{
+    position: relative;
+    left: 1200px;
+    top:-20vh;
+    cursor: pointer;
 }
