@@ -1,40 +1,51 @@
 .container{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    height: 60vh;
     border-bottom: 1px solid black;
-    padding-top: 50px;
-    padding-left: 30px;
-    height: 650px;
 }
 
-.container img{
- box-sizing: border-box;
- height: 150px;
- width: 150px;
- border-radius: 50%;
- border: 1px solid black;
- margin-right: 80%;
+.image{
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.container h1{
-   margin-left: 20%;
-   position: relative;
-   bottom: 35vh;
-   text-transform: uppercase;
-}
+.student_info{
+    width: 70%;
+    
 
-.container p{
-    margin-left: 20%;
-    position: relative;
-    bottom: 41vh;
-    font-size: 20px;
 }
-
-.grades{
-    padding-top: 20px;
+.student_info h1{
+    text-transform: uppercase;
 }
-
 .plus{
-    position: relative;
-    left: 1200px;
-    top:-20vh;
-    cursor: pointer;
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+.robot{
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.plus_button{
+    width: 50%;
+    margin-top: 60px;
+    cursor: pointer;
+    
+}
+.grades{
+    display: none;
+}
+

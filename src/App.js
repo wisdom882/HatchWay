@@ -25,6 +25,8 @@ function App() {
   return(
     
     <div className="App">
+      <div className='app_container'>
+        
       <div className='search'>
 
         <SearchBox 
@@ -33,10 +35,9 @@ function App() {
         />
       </div>
       
-      <CardList persons={persons} />
-      {/* <div>
-        {persons.map(person => (<div key={person.id}>{person.firstName}</div>))}
-      </div> */}
+      <CardList persons={persons.filter( (person) => person.lastName.toLowerCase().includes(searchField.toLowerCase()))} />
+      </div>
+      
      
   </div>
     
