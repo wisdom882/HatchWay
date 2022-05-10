@@ -1,0 +1,32 @@
+.input{
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 50%;
+    margin-bottom: 20px;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+}
+
+.input:focus{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+   
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.t{
+    
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}

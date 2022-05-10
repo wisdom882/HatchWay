@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from '../card/card.component';
-import {PlusMenu} from '../plusMenu/plus.component'
 
 import './list.styles.css';
 

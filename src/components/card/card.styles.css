@@ -2,7 +2,6 @@
     display: flex;
     /* flex-direction: column; */
     width: 100%;
-    height: 60vh;
     border-bottom: 1px solid black;
 }
 
@@ -43,9 +42,19 @@
     width: 50%;
     margin-top: 60px;
     cursor: pointer;
-    
+    background: transparent;
+    border: none;
 }
-.grades{
+
+.font_plus{
+    height:45px;
+}
+
+.hidden{
     display: none;
+}
+
+.show{
+    display: block;
 }
 
